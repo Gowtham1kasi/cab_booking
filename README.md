@@ -15,7 +15,7 @@ open dev-data folder in terminal and use  <  node .\dev-data\import-data.js --im
 # Install Dependencies
 use < npm install > this will install all dependencies require for api to work
 
-Now create config.env file in root folder to set env variables and set these variables
+Now create config.env file in root folder to set env variables and set these variables <br />
 PORT  <br />
 DATABASE_LOCAL <br />
 JWT_SECRET  <br />
