@@ -13,7 +13,7 @@ open dev-data folder in terminal and use ***node .\dev-data\import-data.js --imp
 
 
 # Install Dependencies
-use **npm install**  this will install all dependencies require for api to work
+use ***npm install***  this will install all dependencies require for api to work
 
 Now create config.env file in root folder to set env variables and set these variables <br />
 PORT  <br />
