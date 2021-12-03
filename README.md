@@ -4,7 +4,7 @@
 This API is created using Javascript (Node.js), MongoDb as database. Frameworks : Mongoose, Express.
 
 API was Maily Designed  for end points: get Cabs nearby, Book a cab, Get all Trips of user.
-User End points : SigngUP, Login
+User End points : Signup, Login
 
 # API usage
 
