@@ -16,10 +16,10 @@ open dev-data folder in terminal and use  <  node .\dev-data\import-data.js --im
 use < npm install > this will install all dependencies require for api to work
 
 Now create config.env file in root folder to set env variables and set these variables
-PORT= <port> <br />
-DATABASE_LOCAL= <database url> <br />
-JWT_SECRET= <custom_secret_key> // any string  <br /> <br />
-JWT_EXPIRES_IN= <expire time> <br />
+PORT  <br />
+DATABASE_LOCAL <br />
+JWT_SECRET  <br />
+JWT_EXPIRES_IN  <br />
 
 # npm start
 This will start server 
