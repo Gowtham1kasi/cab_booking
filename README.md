@@ -21,7 +21,7 @@ DATABASE_LOCAL <br />
 JWT_SECRET  <br />
 JWT_EXPIRES_IN  <br />
 
-***npm start***
+Use ***npm start***
 This will start server 
 
 # swagger
