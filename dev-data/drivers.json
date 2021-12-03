@@ -1,0 +1,75 @@
+[
+    {
+      "_id": "61a89f840d275723a8c2bd50",
+      "name": "johncarter",
+      "email": "johncarter@example.com",
+      "password": "$2a$12$VjT9YuHJfk/r8nrD3JDJie4r1ucNbJIxxIXeF1mXwjpuAxOKPok/e",
+      "available": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [82.23804341063851, 16.967754436093983]
+        },
+      "cabModel": "Nissan MAGNITE"
+    },
+    {
+      "_id": "61a89f840d275723a8c2bd51",
+      "name": "berlingrandhome",
+      "email": "berlingrandhome@example.com",
+      "password": "$2a$12$TaTfdEJkDo2RixCdyGSd2.L2NBF0cWvs8c.BM9DdwS.jJww9H8DtG",
+      "available": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [82.23574743980382, 16.96873956635724]
+        },
+      "cabModel": "Toyata INNOVA"
+    },
+    {
+      "_id": "61a89f840d275723a8c2bd52",
+      "name": "danielsteve",
+      "email": "danielsteve@example.com",
+      "password": "$2a$12$jhmLSw0bioQMoXrgUwGCcu49K3ya1CYxT/1nYtsV1a.tNhF0fw4rC",
+      "available": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [82.23645554295844, 16.963003162364064]
+        },
+      "cabModel": "Toyata INNOVA"
+    },
+    {
+      "_id": "61a89f840d275723a8c2bd53",
+      "name": "Mark",
+      "email": "mark@example.com",
+      "password": "$2a$12$rENyaoj3FXk8PUV2jiXWoe/bN1cUkoEUeUK26murWTIBd60/RrPVK",
+      "available": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [82.23959404018792, 16.96227055137833]
+        },
+      "cabModel": "Nissan GT_R"
+    },
+    {
+      "_id": "61a89f840d275723a8c2bd54",
+      "name": "Rogerwood",
+      "email": "rogerwood@example.com",
+      "password": "$2a$12$l1l9EsiueBuFZbzY72qMOuKvdntdphNJBBuJcHMResSo0UkJA3H3W",
+      "available": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [82.21246542787362, 16.96324229620947]
+        },
+      "cabModel": "Nissan KICKS"
+    },
+    {
+      "_id": "61a89f840d275723a8c2bd55",
+      "name": "maxwell",
+      "email": "maxwell@example.com",
+      "password": "$2a$12$s11PZ0nCvK3rGrf3kw56m.pAVb7O24L9qfl5d6QU.Bpxm6xjFys2C",
+      "available": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [82.27499101236936, 16.866059814635367]
+        },
+      "cabModel": "BMW X1"
+    }
+    
+]

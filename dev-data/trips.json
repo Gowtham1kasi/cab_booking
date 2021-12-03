@@ -1,0 +1,29 @@
+[
+    {
+        "tripId": "2chsrnpsc",
+        "from": {
+            "type": "Point",
+            "coordinates": [82.23423284490015, 16.975943065725602]
+        },
+        "to": {
+            "type": "Point",
+            "coordinates": [82.26447007607747, 16.974893556903673]
+        },
+        "fare": 12,
+        "user":"5c8a1e1a2f8fb814b56fa182"
+    },
+    {
+        "tripId": "2chsrnpsc",
+        "from": {
+            "type": "Point",
+            "coordinates": [82.23343101367328, 16.967454523672576]
+        },
+        "to": {
+            "type": "Point",
+            "coordinates": [82.22131196998795, 16.974694062425357]
+        },
+        "fare": 18,
+        "user":"5c8a1e1a2f8fb814b56fa182"
+    }
+
+]

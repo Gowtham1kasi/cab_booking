@@ -1,0 +1,199 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Cab_booking_API",
+      "description": "My cab_booking API"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:5000/api/v1"
+        }
+    ],
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "cabs",
+        "description": "API for cab_booking"
+      }
+    ],
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
+    
+  "paths": {
+    "/users/signup": {
+        "post": {
+          "tags": ["Users"],
+          "description": "Create new user in system",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                  "schema": {
+                      "type": "object",
+                      "properties": {
+                              "name": {
+                                "type": "string",
+                                "example": "sophie"
+                              },
+                              "email": {
+                                  "type": "string",
+                                  "example": "sophie@example.com"
+                              },
+                              "password": {
+                                  "type": "string",
+                                  "example": "test1234"
+                              },
+                              "passwordConfirm": {
+                                  "type": "string",
+                                  "example": "test1234"
+                              }
+                      }
+                  }
+              }
+            }
+        },
+          "responses": {
+            "200": {
+              "description": "New user is created"
+            }
+          }
+        }  
+  },
+  "/users/login": {
+    "post": {
+      "tags": ["Users"],
+      "description": "Existing user can login",
+      "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                            "email": {
+                                "type": "string",
+                                "example": "sophie@example.com"
+                            },
+                            "password": {
+                                "type": "string",
+                                "example": "test1234"
+                            }
+                    }
+                }
+            }
+          }
+      },
+      "responses": {
+        "200": {
+          "description": "user loggedin"
+        }
+      }
+    }  
+},
+
+"/users/getme": {
+    "get": {
+      "tags": ["Users"],
+      "description": "get user details",
+      "produces": ["application/json"],
+      "security":[
+          {
+            "bearerAuth": []
+          }
+      ],
+      "responses": {
+        "200": {
+          "description": "user details"
+        }
+      }
+    }  
+},
+    "/trips/cabs-nearby/{latlng}": {
+      "get": {
+        "tags": ["cabs"],
+        "summary": "get cabs nearby",
+        "parameters": [
+            {
+              "name": "latlng",
+              "in": "path",
+              "description": "latitude, longitude  of user location to get cabs nearby"
+            }
+          ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/trips/bookcab/pickup/{pickup}/drop/{drop}": {
+        "get": {
+          "tags": ["cabs"],
+          "summary": "Book cab",
+          "security":[
+            {
+              "bearerAuth": []
+            }
+        ],
+          "parameters": [
+              {
+                "name": "pickup",
+                "in": "path",
+                "description": "provide pickup  location of trip to book a cab"
+              },
+              {
+                "name": "drop",
+                "in": "path",
+                "description": "provide drop location of trip to book a cab"
+              }
+            ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/trips/mytrips": {
+        "get": {
+          "tags": ["trips"],
+          "summary": "get UserTrips",
+          "security":[
+            {
+              "bearerAuth": []
+            }
+        ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/trips": {
+        "get": {
+          "tags": ["trips"],
+          "summary": "get AllTrips",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+  },
+  "components": {        
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+ 
+}
+
+

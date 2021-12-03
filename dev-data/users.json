@@ -1,0 +1,20 @@
+[
+    {
+      "_id": "5c8a1e1a2f8fb814b56fa182",
+      "name": "Sophie Louise Hart",
+      "email": "sophie@example.com",
+      "password": "$2a$12$5KBodZYH7uG0UlTAfBVBGevhCASlp9.PERzPBXp7yANG8aQuncC1m"
+    },
+    {
+      "_id": "5c8a1ec62f8fb814b56fa183",
+      "name": "Ayla Cornell",
+      "email": "ayls@example.com",
+      "password": "$2a$12$SE7uh96UeBzxoZS88.17oO.FCsT54jOmKYz2U7a7gpZ7NHjCL2lVK"
+    },
+    {
+      "_id": "5c8a1f292f8fb814b56fa184",
+      "name": "Leo Gillespie",
+      "email": "leo@example.com",
+      "password": "$2a$12$1SmIWVCwwduC.WehLXlX4.Rngn6sNM5QHhqSShy8BqroSlMQQwwWi"
+    }
+  ]
