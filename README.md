@@ -9,7 +9,7 @@ User End points : SigngUP, Login
 # API usage
 
 # Import test Data
-open dev-data folder in terminal and use **node .\dev-data\import-data.js --import**  command to import test data.
+open dev-data folder in terminal and use ***node .\dev-data\import-data.js --import***  command to import test data.
 
 
 # Install Dependencies
@@ -21,7 +21,7 @@ DATABASE_LOCAL <br />
 JWT_SECRET  <br />
 JWT_EXPIRES_IN  <br />
 
-**npm start**
+***npm start***
 This will start server 
 
 # swagger
