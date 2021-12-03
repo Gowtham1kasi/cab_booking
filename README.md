@@ -9,17 +9,17 @@ User End points : SigngUP, Login
 # API usage
 
 # Import test Data
-open dev-data folder in terminal and use  node .\dev-data\import-data.js --import  command to import test data.
+open dev-data folder in terminal and use  <  node .\dev-data\import-data.js --import  > command to import test data.
 
 
 # Install Dependencies
 use < npm install > this will install all dependencies require for api to work
 
 Now create config.env file in root folder to set env variables and set these variables
-PORT= <port>
-DATABASE_LOCAL= <database url>
-JWT_SECRET= <custom_secret_key> // any string 
-JWT_EXPIRES_IN= <expire time>
+PORT= <port> <br />
+DATABASE_LOCAL= <database url> <br />
+JWT_SECRET= <custom_secret_key> // any string  <br /> <br />
+JWT_EXPIRES_IN= <expire time> <br />
 
 # npm start
 This will start server 
